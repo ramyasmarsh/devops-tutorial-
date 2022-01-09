@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("ramyadocker2020/ramyajenkins")
+        app = docker.build("Ramya Raghavan/ramyajenkins")
     }
 
     stage('Test image') {
